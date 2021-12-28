@@ -29,7 +29,6 @@ optional arguments:
   -f FILEINPUT, --fileInput FILEINPUT
                         fileInput
  
- 
 # To convert Address and Address Groups, run the commands below.
  
 ### Addresses / Network Subnets / DNS:
@@ -52,3 +51,14 @@ optional arguments:
 ### Firewall Policies:
 ./sonicwall-parser.py -fp -f <Sonicwall Export File> | tee -a firewall-policies.txt
  
+ 
+# Release notes
+ 
+V1.0:
+- Firewall policies
+- Address / Address Groups
+- Service / Service Groups
+
+V2.0: (Not released yet)
+- NAT policies
+- VPN
