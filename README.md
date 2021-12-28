@@ -1,6 +1,6 @@
 # Sonicwall to Junos Converter
 
-This script converts Sonicwall configuration export to Junos configuration using the set format.
+This script converts Sonicwall configuration export to Junos configuration in the Junos set format.
 
 # Installation
 1. Install Python3 and pip3. (Installing the python3 MAC OS package should have both the required libraries.) - https://www.python.org/downloads/
