@@ -49,6 +49,6 @@ optional arguments:
  
 # To convert firewall policies.
 
-###Firewall Policies:
+### Firewall Policies:
 ./sonicwall-parser.py -fp -f <Sonicwall Export File> | tee -a firewall-policies.txt
  
