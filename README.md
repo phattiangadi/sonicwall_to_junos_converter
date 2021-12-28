@@ -15,19 +15,30 @@ usage: sonicwall-parser.py [-h] [-i] [-z] [-a] [-g] [-s] [-sg] [-fp] [-np]
                            [-v] [-A] [-f FILEINPUT]
  
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   -i, --interface       interface
+  
   -z, --zone            zone
+  
   -a, --addresses       addresses
+  
   -g, --addressGroups   addressGroups
+  
   -s, --services        services
+  
   -sg, --servicegroups  servicegroups
+  
   -fp, --fwpolicies     firewallpolicies
+  
   -np, --natpolicies    natpolicies
+  
   -v, --vpn             vpn
+  
   -A, --all             all
-  -f FILEINPUT, --fileInput FILEINPUT
-                        fileInput
+  
+  -f FILEINPUT, --fileInput FILEINPUT fileInput
  
 # To convert Address and Address Groups, run the commands below.
  
